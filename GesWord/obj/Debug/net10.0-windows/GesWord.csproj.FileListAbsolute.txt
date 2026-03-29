@@ -1,0 +1,14 @@
+D:\семинары\КМП\GesWord\GesWord\bin\Debug\net10.0-windows\GesWord.exe
+D:\семинары\КМП\GesWord\GesWord\bin\Debug\net10.0-windows\GesWord.deps.json
+D:\семинары\КМП\GesWord\GesWord\bin\Debug\net10.0-windows\GesWord.runtimeconfig.json
+D:\семинары\КМП\GesWord\GesWord\bin\Debug\net10.0-windows\GesWord.dll
+D:\семинары\КМП\GesWord\GesWord\bin\Debug\net10.0-windows\GesWord.pdb
+D:\семинары\КМП\GesWord\GesWord\obj\Debug\net10.0-windows\GesWord.GeneratedMSBuildEditorConfig.editorconfig
+D:\семинары\КМП\GesWord\GesWord\obj\Debug\net10.0-windows\GesWord.AssemblyInfoInputs.cache
+D:\семинары\КМП\GesWord\GesWord\obj\Debug\net10.0-windows\GesWord.AssemblyInfo.cs
+D:\семинары\КМП\GesWord\GesWord\obj\Debug\net10.0-windows\GesWord.csproj.CoreCompileInputs.cache
+D:\семинары\КМП\GesWord\GesWord\obj\Debug\net10.0-windows\GesWord.dll
+D:\семинары\КМП\GesWord\GesWord\obj\Debug\net10.0-windows\refint\GesWord.dll
+D:\семинары\КМП\GesWord\GesWord\obj\Debug\net10.0-windows\GesWord.pdb
+D:\семинары\КМП\GesWord\GesWord\obj\Debug\net10.0-windows\GesWord.genruntimeconfig.cache
+D:\семинары\КМП\GesWord\GesWord\obj\Debug\net10.0-windows\ref\GesWord.dll
