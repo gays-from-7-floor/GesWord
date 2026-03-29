@@ -81,7 +81,7 @@ private void buttonGenerateWord_Click(object sender, EventArgs e)
             label1.Text = "буквы нет в слове";
             currentTextBox.BackColor = Color.Red;
         }
-        
+        //
     }
     
 }
