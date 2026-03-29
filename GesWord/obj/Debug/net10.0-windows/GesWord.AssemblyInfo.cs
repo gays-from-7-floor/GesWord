@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GesWord")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24de3169ca5c2b0aac101303b14a5e07898a549a")]
 [assembly: System.Reflection.AssemblyProductAttribute("GesWord")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GesWord")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

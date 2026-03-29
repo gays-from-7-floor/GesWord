@@ -29,7 +29,7 @@ private void buttonGenerateWord_Click(object sender, EventArgs e)
             }
         }
         int x = 46, y = 128;
-        int textBoxSize = 20;
+        int textBoxSize =30;
         int padding = 10;
         
         letterTextBoxes = new TextBox[gesWord.Length];
@@ -43,6 +43,10 @@ private void buttonGenerateWord_Click(object sender, EventArgs e)
             letterTextBoxes[i].Location = new Point(x,y);
             letterTextBoxes[i].Name = "letterTextBox" + i;
             letterTextBoxes[i].Size = new Size(textBoxSize, textBoxSize);
+            letterTextBoxes[i].MaxLength = 1;
+            letterTextBoxes[i].ForeColor = Color.White;
+            letterTextBoxes[i].Font = new Font("Arial", 12);
+            letterTextBoxes[i].TextAlign = HorizontalAlignment.Center;
             this.Controls.Add(letterTextBoxes[i]);
             letterTextBoxes[i].Tag = i;
             letterTextBoxes[i].TextChanged += letterTextBoxes_TextChanged;
@@ -58,13 +62,16 @@ private void buttonGenerateWord_Click(object sender, EventArgs e)
     {
         TextBox currentTextBox = sender as TextBox;
         int currentIndex = (int)currentTextBox.Tag; // получаем индекс из Tag
-        
-        
-        if (!string.IsNullOrEmpty(currentTextBox.Text))
+
+
+        if (string.IsNullOrEmpty(currentTextBox.Text))
         {
-            letterPersonal = currentTextBox.Text[0];
             currentTextBox.BackColor = Color.White;
+            return;
         }
+           
+
+        char letterPersonal = currentTextBox.Text[0];
  
         if (letterPersonal == letterWordArr[currentIndex])
         {
@@ -74,7 +81,7 @@ private void buttonGenerateWord_Click(object sender, EventArgs e)
         else if (letterWordArr.Contains(letterPersonal))
         {
             label1.Text = "буква есть в слове";
-            currentTextBox.BackColor = Color.Yellow;
+            currentTextBox.BackColor = Color.SaddleBrown;
         }
         else
         {
